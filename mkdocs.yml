@@ -1,0 +1,38 @@
+site_name: 工业与机器视觉100问
+site_author: 兰青松
+site_description: 工业与机器视觉100问首发公开版，第1—31问全文，第32—100问目录
+copyright: Copyright © 2026 兰青松 · 辽作登字-2026-L-00055599
+use_directory_urls: false
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    primary: blue grey
+    accent: teal
+
+nav:
+  - 首页: index.md
+  - 第1—31问全文: questions-1-31.md
+  - 第32—100问目录: catalog-32-100.md
+  - 版权与AI说明: copyright.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
