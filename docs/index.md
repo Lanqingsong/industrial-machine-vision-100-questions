@@ -7,7 +7,9 @@
 
 本版完整公开第1—60问，第61—100问仅公布标题目录。
 
-[开始阅读第1问](questions/q01.md){ .md-button .md-button--primary }
+[开始阅读第一部分](part1-1-31.md){ .md-button .md-button--primary }
+[阅读第二部分](part2-32-40.md){ .md-button }
+[阅读第三部分](part3-41-60.md){ .md-button }
 [查看后续目录](catalog-61-100.md){ .md-button }
 [下载PDF阅读版](downloads/工业与机器视觉100问_首发公开版_1-31问全文.pdf){ .md-button }
 
