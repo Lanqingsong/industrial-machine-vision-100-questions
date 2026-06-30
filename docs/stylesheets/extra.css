@@ -134,6 +134,14 @@ body {
   font-size: .88rem;
 }
 .section-intro { margin-bottom: 2rem; }
+.publication-note {
+  margin-top: 1rem;
+  padding: .8rem 1rem;
+  border-left: .18rem solid var(--book-gold);
+  background: rgba(201,154,69,.08);
+  color: #5f6669;
+  font-size: .72rem;
+}
 .md-typeset img { border-radius: .2rem; }
 
 @media screen and (max-width: 76.1875em) {

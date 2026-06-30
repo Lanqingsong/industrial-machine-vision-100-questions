@@ -15,5 +15,5 @@ hide:
 - 认识参数调节、误检与漏检之间的关系。
 
 <div class="chapter-grid chapter-grid-single">
-  <a class="chapter-card" href="part2-algorithms-32-40.md"><b>05</b><span>算法基础</span><small>第32—40问</small></a>
+  <a class="chapter-card" href="part2-algorithms-32-40.html"><b>05</b><span>算法基础</span><small>第32—40问</small></a>
 </div>

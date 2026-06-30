@@ -15,8 +15,8 @@ hide:
 - 了解三维视觉、红外、紫外和智能相机的适用边界。
 
 <div class="chapter-grid chapter-grid-four">
-  <a class="chapter-card" href="part1-camera-1-6.md"><b>01</b><span>工业相机选型</span><small>第1—6问</small></a>
-  <a class="chapter-card" href="part1-lens-7-14.md"><b>02</b><span>镜头与成像</span><small>第7—14问</small></a>
-  <a class="chapter-card" href="part1-lighting-15-22.md"><b>03</b><span>工业照明</span><small>第15—22问</small></a>
-  <a class="chapter-card" href="part1-advanced-23-31.md"><b>04</b><span>三维与特殊成像</span><small>第23—31问</small></a>
+  <a class="chapter-card" href="part1-camera-1-6.html"><b>01</b><span>工业相机选型</span><small>第1—6问</small></a>
+  <a class="chapter-card" href="part1-lens-7-14.html"><b>02</b><span>镜头与成像</span><small>第7—14问</small></a>
+  <a class="chapter-card" href="part1-lighting-15-22.html"><b>03</b><span>工业照明</span><small>第15—22问</small></a>
+  <a class="chapter-card" href="part1-advanced-23-31.html"><b>04</b><span>三维与特殊成像</span><small>第23—31问</small></a>
 </div>

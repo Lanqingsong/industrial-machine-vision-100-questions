@@ -15,7 +15,7 @@ hide:
 - 了解HMI参数管理与生产换型流程。
 
 <div class="chapter-grid">
-  <a class="chapter-card" href="part3-plc-41-50.md"><b>06</b><span>PLC、I/O与通信</span><small>第41—50问</small></a>
-  <a class="chapter-card" href="part3-motion-51-57.md"><b>07</b><span>运动控制与同步</span><small>第51—57问</small></a>
-  <a class="chapter-card" href="part3-hmi-58-60.md"><b>08</b><span>HMI与生产换型</span><small>第58—60问</small></a>
+  <a class="chapter-card" href="part3-plc-41-50.html"><b>06</b><span>PLC、I/O与通信</span><small>第41—50问</small></a>
+  <a class="chapter-card" href="part3-motion-51-57.html"><b>07</b><span>运动控制与同步</span><small>第51—57问</small></a>
+  <a class="chapter-card" href="part3-hmi-58-60.html"><b>08</b><span>HMI与生产换型</span><small>第58—60问</small></a>
 </div>
