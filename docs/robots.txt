@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lanqingsong.github.io/industrial-machine-vision-100-questions/sitemap.xml

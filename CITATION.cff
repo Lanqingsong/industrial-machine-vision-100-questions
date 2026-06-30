@@ -5,8 +5,8 @@ type: software
 authors:
   - family-names: "兰"
     given-names: "青松"
-version: "首发公开版"
-date-released: "2026-06-29"
+version: "公开阅读版（更新至第60问）"
+date-released: "2026-06-30"
 preferred-citation:
   type: book
   title: "工业与机器视觉100问"
