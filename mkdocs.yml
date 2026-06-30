@@ -10,6 +10,8 @@ use_directory_urls: false
 theme:
   name: material
   language: zh
+  icon:
+    logo: material/book-open-page-variant
   features:
     - navigation.sections
     - navigation.top
@@ -18,16 +20,33 @@ theme:
     - search.highlight
     - content.code.copy
   palette:
+    scheme: default
     primary: blue grey
-    accent: teal
+    accent: amber
 
 nav:
-  - 首页: index.md
-  - 第一部分：相机、镜头与成像硬件（1—31）: part1-1-31.md
-  - 第二部分：算法基础（32—40）: part2-32-40.md
-  - 第三部分：PLC通信与系统集成（连载至60）: part3-41-60.md
-  - 第61—100问目录: catalog-61-100.md
-  - 版权与AI说明: copyright.md
+  - 开始阅读:
+      - 图书首页: index.md
+      - 前言: preface.md
+      - 阅读指南: reading-guide.md
+      - 全书目录: full-catalog.md
+  - 第一部分 · 成像硬件:
+      - 第一部分导读: part1-index.md
+      - 1. 工业相机选型（1—6）: part1-camera-1-6.md
+      - 2. 镜头与成像（7—14）: part1-lens-7-14.md
+      - 3. 工业照明（15—22）: part1-lighting-15-22.md
+      - 4. 三维与特殊成像（23—31）: part1-advanced-23-31.md
+  - 第二部分 · 算法基础:
+      - 第二部分导读: part2-index.md
+      - 5. 算法基础（32—40）: part2-algorithms-32-40.md
+  - 第三部分 · 系统集成:
+      - 第三部分导读: part3-index.md
+      - 6. PLC、I/O与通信（41—50）: part3-plc-41-50.md
+      - 7. 运动控制与同步（51—57）: part3-motion-51-57.md
+      - 8. HMI与生产换型（58—60）: part3-hmi-58-60.md
+  - 后续内容:
+      - 第61—100问目录: catalog-61-100.md
+      - 版权与AI说明: copyright.md
 
 markdown_extensions:
   - admonition
@@ -40,6 +59,9 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

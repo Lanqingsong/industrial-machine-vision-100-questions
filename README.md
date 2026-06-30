@@ -12,9 +12,10 @@
 
 ## 在线阅读
 
-- [开始阅读第一部分](docs/part1-1-31.md)
-- [阅读第二部分](docs/part2-32-40.md)
-- [阅读第三部分（连载至第60问）](docs/part3-41-60.md)
+- [进入图书首页](docs/index.md)
+- [阅读前言](docs/preface.md)
+- [查看全书目录](docs/full-catalog.md)
+- [开始第一部分](docs/part1-index.md)
 - [查看第61—100问目录](docs/catalog-61-100.md)
 - [版权、内容来源与AI辅助说明](COPYRIGHT.md)
 - [下载首发公开版PDF](docs/downloads/工业与机器视觉100问_首发公开版_1-31问全文.pdf)
