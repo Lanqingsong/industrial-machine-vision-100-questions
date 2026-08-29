@@ -1,0 +1,13 @@
+# Local preview and build artifacts
+site/
+build/
+*.html
+*.log
+
+# Temporary rendered pages
+render_check*/
+preview*/
+
+# Superseded PDFs kept temporarily while an external viewer has them open
+output/pdf/工业与机器视觉100问_Q1-Q60_第三版.pdf
+output/pdf/工业与机器视觉100问_Q1-Q60_第三版_修正版.pdf
