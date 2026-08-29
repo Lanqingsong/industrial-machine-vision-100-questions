@@ -1267,8 +1267,8 @@ AIAG 的 Measurement Systems Analysis（MSA）手册是 ANOVA GR&R 和常见变�
 
 ---
 
-[返回总目录](../../README.md) · [上一章](../chapters/chapter-01-q01-q30.md) · [下一章](../chapters/chapter-03-q41-q55.md)
+[返回总目录](../index.md) · [上一章](chapter-01-q01-q30.md) · [下一章](chapter-03-q41-q55.md)
 
 ---
 
-[返回总目录](../../README.md) · [上一章](../chapters/chapter-01-q01-q30.md) · [下一章](../chapters/chapter-03-q41-q55.md)
+[返回总目录](../index.md) · [上一章](chapter-01-q01-q30.md) · [下一章](chapter-03-q41-q55.md)
