@@ -12,3 +12,15 @@
 - [相关视频：在哔哩哔哩搜索“飒飒青屿”](https://search.bilibili.com/all?keyword=%E9%A3%92%E9%A3%92%E9%9D%92%E5%B1%BF)
 
 完整的 Q1–Q100 结构和后续章节范围见[关于这本书](preface.md)。
+
+## 作者
+
+兰青松，网络署名 LanQS。联系邮箱：[874953727@qq.com](mailto:874953727@qq.com)。
+
+## 引用
+
+引用本书正文、图片、公式或章节时，建议注明：
+
+> 兰青松：《工业与机器视觉100问》第三版，当前发布至 Q1–Q60，GitHub 仓库：<https://github.com/Lanqingsong/industrial-machine-vision-100-questions>。
+
+详细书目信息见仓库中的 [CITATION.cff](https://github.com/Lanqingsong/industrial-machine-vision-100-questions/blob/main/CITATION.cff)。
