@@ -1,8 +1,8 @@
-# 工业与机器视觉 100 问｜Q1–Q60
+# 工业与机器视觉 100 问｜Q1–Q50
 
-本仓库收录《工业与机器视觉100问》第三版 Q1–Q60 的 Markdown 正文、配图和 PDF。
+本仓库收录《工业与机器视觉100问》第三版 Q1–Q50 的 Markdown 正文和配图。
 
-这本书面向想学习工业视觉、准备相关面试，或需要参与视觉项目的读者，内容从相机、镜头、光源等硬件选型讲起，延伸到算法、PLC 通信和系统集成。每个问题都配有示意图、公式或代码，方便把单个器件和参数放回完整的视觉系统中理解，也方便按问题查找和复习。目前先发布 Q1–Q60，后续章节会继续补全。
+这本书面向想学习工业视觉、准备相关面试，或需要参与视觉项目的读者，内容从相机、镜头、光源等硬件选型讲起，延伸到算法、PLC 通信和系统集成。每个问题都配有示意图、公式或代码，方便把单个器件和参数放回完整的视觉系统中理解，也方便按问题查找和复习。目前先发布 Q1–Q50，后续章节会继续补全。
 
 ## 阅读入口
 
@@ -14,12 +14,15 @@
 
 1. [第一章：相机、镜头与成像硬件选型（Q1–Q30）](docs/chapters/chapter-01-q01-q30.md)
 2. [第二章：算法基础与系统验收（Q31–Q40）](docs/chapters/chapter-02-q31-q40.md)
-3. [第三章：PLC、通信与运动控制（Q41–Q55）](docs/chapters/chapter-03-q41-q55.md)
-4. [第四章：PLC 通信、实时控制与系统集成（Q56–Q60）](docs/chapters/chapter-04-q56-q60.md)
+3. [第三章：PLC、通信与运动控制（Q41–Q50）](docs/chapters/chapter-03-q41-q50.md)
 
-## PDF 阅读版
+## 完整版本
 
-- [下载《工业与机器视觉100问》Q1–Q60 第三版 PDF](output/pdf/工业与机器视觉100问_Q1-Q60_第三版_封面重制版.pdf)
+当前 GitHub 页面先公开 Q1–Q50。完整版本包含后续章节，属于独立的付费阅读内容，请通过下方二维码进入完整版本页面；购买前请以页面公布的价格、交付方式和服务说明为准。
+
+![完整版本入口二维码](docs/assets/full-version-qr.png)
+
+二维码仅作为完整版本入口，不代表 GitHub 仓库内已经公开 Q51–Q100。公开部分与完整版本的授权范围不同，请勿将付费内容重新上传、转售或改编发布。
 
 ## 相关视频
 
@@ -27,7 +30,7 @@
 
 ## 逐题索引
 
-README 下方列出 Q1–Q60 全部问题，可直接跳转到对应章节。
+README 下方列出 Q1–Q50 全部问题，可直接跳转到对应章节。
 
 - [Q1：工业相机选型的三个最核心参数是什么？它们的计算公式或选择逻辑是怎样的？](docs/chapters/chapter-01-q01-q30.md#q01)
 - [Q2：如何根据最小检测缺陷尺寸和视野范围，计算所需相机的最低分辨率？](docs/chapters/chapter-01-q01-q30.md#q02)
@@ -69,26 +72,16 @@ README 下方列出 Q1–Q60 全部问题，可直接跳转到对应章节。
 - [Q38：什么是无监督异常检测（Anomaly Detection）？在没有缺陷样本的情况下如何训练工业检测模型？](docs/chapters/chapter-02-q31-q40.md#q38)
 - [Q39：什么是双目立体视觉的视差（Disparity）？如何从视差图计算深度？误差来源有哪些？](docs/chapters/chapter-02-q31-q40.md#q39)
 - [Q40：视觉系统项目验收时，客户通常提出哪些标准？如何设计完整的量产前验收测试方案？](docs/chapters/chapter-02-q31-q40.md#q40)
-- [Q41：PLC 在机器视觉系统中最核心的作用是什么？请说明“触发—采集—处理—输出”的完整协同流程。](docs/chapters/chapter-03-q41-q55.md#q41)
-- [Q42：什么是硬触发？什么是软触发？为什么工业现场主要使用硬触发？](docs/chapters/chapter-03-q41-q55.md#q42)
-- [Q43：硬触发通常使用什么电平信号？NPN/PNP 和 24 V 应如何理解？](docs/chapters/chapter-03-q41-q55.md#q43)
-- [Q44：PLC、光电传感器、视觉系统和剔除机构之间如何接线并协同控制？](docs/chapters/chapter-03-q41-q55.md#q44)
-- [Q45：光电传感器、接近开关和光纤传感器的触发特性有什么区别？](docs/chapters/chapter-03-q41-q55.md#q45)
-- [Q46：视觉系统通过什么方式将检测结果（OK/NG）告诉PLC？通常使用什么类型的输出模块？](docs/chapters/chapter-03-q41-q55.md#q46)
-- [Q47：什么是光耦隔离？I/O模块为什么需要它？](docs/chapters/chapter-03-q41-q55.md#q47)
-- [Q48：除了简单的I/O信号，视觉系统与PLC还有哪些通信方式？（如RS232/485、以太网TCP/IP、Modbus TCP/RTU、PROFINET）](docs/chapters/chapter-03-q41-q55.md#q48)
-- [Q49：什么是Modbus通信中的寄存器、线圈、保持寄存器和输入寄存器？视觉系统如何映射检测结果？](docs/chapters/chapter-03-q41-q55.md#q49)
-- [Q50：在什么情况下会选择通过工业以太网而不是简单I/O与PLC交互？](docs/chapters/chapter-03-q41-q55.md#q50)
-- [Q51：什么是PROFINET或EtherCAT？视觉系统能接入这种总线吗？](docs/chapters/chapter-03-q41-q55.md#q51)
-- [Q52：产线的运动控制（如伺服电机）是由PLC做还是由视觉系统做？视觉引导定位（如机器人抓取）时，数据流是怎样的？](docs/chapters/chapter-03-q41-q55.md#q52)
-- [Q53：如何处理因传输延迟或处理时间导致的“定位偏差”？什么是“飞拍”或“跟踪触发”？](docs/chapters/chapter-03-q41-q55.md#q53)
-- [Q54：什么是编码器？如何利用编码器信号实现更精准的触发或图像拼接？](docs/chapters/chapter-03-q41-q55.md#q54)
-- [Q55：当产线速度变化时，如何保证视觉系统的触发频率同步变化？](docs/chapters/chapter-03-q41-q55.md#q55)
-- [Q56：在多工位视觉检测系统中，如何协调多台相机与 PLC 的触发时序？](docs/chapters/chapter-04-q56-q60.md#q56)
-- [Q57：视觉系统判断 NG 后，剔除装置（如气缸、推杆、摆臂）的动作通常由谁控制？延迟如何计算？](docs/chapters/chapter-04-q56-q60.md#q57)
-- [Q58：什么是 HMI？视觉系统需要与 HMI 交互哪些信息？](docs/chapters/chapter-04-q56-q60.md#q58)
-- [Q59：如何在 HMI 上设计便于操作工使用的视觉参数调整界面？（如 ROI 框、阈值滑块）](docs/chapters/chapter-04-q56-q60.md#q59)
-- [Q60：生产换型时，视觉系统如何快速切换程序和参数？PLC 如何配合？](docs/chapters/chapter-04-q56-q60.md#q60)
+- [Q41：PLC 在机器视觉系统中最核心的作用是什么？请说明“触发—采集—处理—输出”的完整协同流程。](docs/chapters/chapter-03-q41-q50.md#q41)
+- [Q42：什么是硬触发？什么是软触发？为什么工业现场主要使用硬触发？](docs/chapters/chapter-03-q41-q50.md#q42)
+- [Q43：硬触发通常使用什么电平信号？NPN/PNP 和 24 V 应如何理解？](docs/chapters/chapter-03-q41-q50.md#q43)
+- [Q44：PLC、光电传感器、视觉系统和剔除机构之间如何接线并协同控制？](docs/chapters/chapter-03-q41-q50.md#q44)
+- [Q45：光电传感器、接近开关和光纤传感器的触发特性有什么区别？](docs/chapters/chapter-03-q41-q50.md#q45)
+- [Q46：视觉系统通过什么方式将检测结果（OK/NG）告诉PLC？通常使用什么类型的输出模块？](docs/chapters/chapter-03-q41-q50.md#q46)
+- [Q47：什么是光耦隔离？I/O模块为什么需要它？](docs/chapters/chapter-03-q41-q50.md#q47)
+- [Q48：除了简单的I/O信号，视觉系统与PLC还有哪些通信方式？（如RS232/485、以太网TCP/IP、Modbus TCP/RTU、PROFINET）](docs/chapters/chapter-03-q41-q50.md#q48)
+- [Q49：什么是Modbus通信中的寄存器、线圈、保持寄存器和输入寄存器？视觉系统如何映射检测结果？](docs/chapters/chapter-03-q41-q50.md#q49)
+- [Q50：在什么情况下会选择通过工业以太网而不是简单I/O与PLC交互？](docs/chapters/chapter-03-q41-q50.md#q50)
 
 ## 正文节选与配图
 
@@ -134,3 +127,4 @@ README 下方列出 Q1–Q60 全部问题，可直接跳转到对应章节。
 本仓库的出版正文与配图采用 [知识共享署名—非商业性使用—禁止演绎 4.0 国际许可协议（CC BY-NC-ND 4.0）](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)。在遵守协议并保留作者署名、作品名称和发布地址的前提下，允许个人阅读、学习和非商业分享；商业出版、付费培训、实质性改编和大规模再发布须事先取得作者书面许可。
 
 引用建议：兰青松，《工业与机器视觉100问》第三版，引用具体章节或问题时请附本仓库地址。
+
