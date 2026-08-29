@@ -9,5 +9,6 @@
 - [第二章：算法基础与系统验收（Q31–Q40）](chapters/chapter-02-q31-q40.md)
 - [第三章：PLC、通信与运动控制（Q41–Q55）](chapters/chapter-03-q41-q55.md)
 - [第四章：PLC 通信、实时控制与系统集成（Q56–Q60）](chapters/chapter-04-q56-q60.md)
+- [相关视频：在哔哩哔哩搜索“飒飒青屿”](https://search.bilibili.com/all?keyword=%E9%A3%92%E9%A3%92%E9%9D%92%E5%B1%BF)
 
 完整的 Q1–Q100 结构和后续章节范围见[关于这本书](preface.md)。
