@@ -5,7 +5,7 @@ type: book
 authors:
   - family-names: "兰"
     given-names: "青松"
-version: "第三版（当前发布至第60问）"
+version: "第三版（当前发布至第50问）"
 preferred-citation:
   type: book
   title: "工业与机器视觉100问"
