@@ -8,6 +8,7 @@
 - [第一章：相机、镜头与成像硬件选型（Q1–Q30）](chapters/chapter-01-q01-q30.md)
 - [第二章：算法基础与系统验收（Q31–Q40）](chapters/chapter-02-q31-q40.md)
 - [第三章：PLC、通信与运动控制（Q41–Q50）](chapters/chapter-03-q41-q50.md)
+- [下载 Q1–Q50 PDF 阅读版](https://github.com/Lanqingsong/industrial-machine-vision-100-questions/raw/main/output/pdf/%E5%B7%A5%E4%B8%9A%E4%B8%8E%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89100%E9%97%AE_Q1-Q50_%E7%AC%AC%E4%B8%89%E7%89%88_%E5%B0%81%E9%9D%A2%E9%87%8D%E5%88%B6%E7%89%88.pdf)
 - [相关视频：在哔哩哔哩搜索“飒飒青屿”](https://search.bilibili.com/all?keyword=%E9%A3%92%E9%A3%92%E9%9D%92%E5%B1%BF)
 
 完整的 Q1–Q100 结构和后续章节范围见[关于这本书](preface.md)。
