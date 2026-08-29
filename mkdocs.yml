@@ -3,7 +3,7 @@ site_url: https://lanqingsong.github.io/industrial-machine-vision-100-questions/
 repo_url: https://github.com/Lanqingsong/industrial-machine-vision-100-questions
 repo_name: Lanqingsong/industrial-machine-vision-100-questions
 site_author: 兰青松
-site_description: 工业视觉图文与代码资料，当前发布第1—60问
+site_description: 工业视觉图文与代码资料，当前公开第1—50问
 copyright: Copyright © 2026 兰青松（LanQS）
 use_directory_urls: false
 
@@ -29,8 +29,7 @@ nav:
   - 正文:
       - 第一章（Q1–Q30）: chapters/chapter-01-q01-q30.md
       - 第二章（Q31–Q40）: chapters/chapter-02-q31-q40.md
-      - 第三章（Q41–Q55）: chapters/chapter-03-q41-q55.md
-      - 第四章（Q56–Q60）: chapters/chapter-04-q56-q60.md
+      - 第三章（Q41–Q50）: chapters/chapter-03-q41-q50.md
 
 markdown_extensions:
   - admonition
@@ -46,3 +45,4 @@ markdown_extensions:
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
