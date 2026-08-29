@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "引用本书时，请使用以下书目信息。"
+title: "工业与机器视觉100问"
+type: book
+authors:
+  - family-names: "兰"
+    given-names: "青松"
+version: "第三版（当前发布至第60问）"
+preferred-citation:
+  type: book
+  title: "工业与机器视觉100问"
+  authors:
+    - family-names: "兰"
+      given-names: "青松"
+  year: 2026
