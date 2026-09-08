@@ -20,6 +20,11 @@
     break-before: auto;
   }
 
+  .md-content h1:first-child,
+  .md-content h2:first-child {
+    break-before: auto;
+  }
+
   img {
     break-inside: avoid;
     max-width: 100%;

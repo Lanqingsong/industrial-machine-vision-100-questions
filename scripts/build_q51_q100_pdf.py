@@ -38,12 +38,7 @@ def main() -> None:
     expected = list(range(51, 101))
     if numbers != expected:
         raise SystemExit(f"question sequence mismatch: {numbers}")
-    header = (
-        "# 《工业与机器视觉100问》Q51–Q100\n\n"
-        "> 发布范围：Q51–Q100。\n\n"
-        "---\n\n"
-    )
-    TEMP_DOC.write_text(header + "\n\n---\n\n".join(sections) + "\n", encoding="utf-8")
+    TEMP_DOC.write_text("\n\n---\n\n".join(sections) + "\n", encoding="utf-8")
     print(f"wrote {TEMP_DOC} with {len(sections)} questions")
 
 
