@@ -9,8 +9,8 @@ from pypdf.generic import NameObject, RectangleObject, TextStringObject
 
 ROOT = Path(__file__).resolve().parents[1]
 PDF_DIR = ROOT / "output" / "pdf"
-SOURCE = PDF_DIR / "q51-q100-release-test.pdf"
-TARGET = PDF_DIR / "工业与机器视觉100问_Q51-Q100_老仓库标准合并发布稿.pdf"
+SOURCE = PDF_DIR / "q51-q100-browser-render.pdf"
+TARGET = PDF_DIR / "工业与机器视觉100问_Q51-Q100_第三版_发布版.pdf"
 
 
 def main() -> None:
@@ -49,7 +49,7 @@ def main() -> None:
         # replacement glyphs; the Chinese title remains in the visible cover.
         "/Title": "Industrial and Machine Vision 100 Questions - Q51-Q100 Release",
         "/Author": "LanQS",
-        "/Subject": "Q51-Q100 release; Q51-Q60 restored; Q61-Q100 added",
+        "/Subject": "Q51-Q100 third edition release",
         "/Keywords": "industrial vision, machine vision, Q51-Q100, release",
     }.items():
         info[NameObject(key)] = TextStringObject(value)

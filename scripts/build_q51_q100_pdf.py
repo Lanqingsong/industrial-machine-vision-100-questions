@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CHAPTERS = ROOT / "docs" / "chapters"
-TEMP_DOC = CHAPTERS / "q51-q100-release.md"
+TEMP_DOC = CHAPTERS / "chapter-q51-q100-pdf-source.md"
 
 
 def extract_questions(path: Path, start: int, end: int) -> list[str]:
@@ -40,7 +40,7 @@ def main() -> None:
         raise SystemExit(f"question sequence mismatch: {numbers}")
     header = (
         "# 《工业与机器视觉100问》Q51–Q100\n\n"
-        "> 发布范围：Q51–Q100。Q51–Q60 为老仓库已有正文，本次纳入正式发布；Q61–Q100 为新增正文。\n\n"
+        "> 发布范围：Q51–Q100。\n\n"
         "---\n\n"
     )
     TEMP_DOC.write_text(header + "\n\n---\n\n".join(sections) + "\n", encoding="utf-8")

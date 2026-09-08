@@ -23,7 +23,7 @@ theme:
     accent: amber
 
 nav:
-  - Q51–Q100: chapters/q51-q100-release.md
+  - Q51–Q100: chapters/chapter-q51-q100-pdf-source.md
 
 markdown_extensions:
   - admonition
