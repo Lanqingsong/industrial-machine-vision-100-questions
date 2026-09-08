@@ -1,8 +1,8 @@
-# 工业与机器视觉 100 问｜Q1–Q60
+# 工业与机器视觉 100 问｜Q1–Q100
 
-本仓库收录《工业与机器视觉100问》第三版 Q1–Q60 的 Markdown 正文、配图和 PDF。
+本仓库收录《工业与机器视觉100问》第三版 Q1–Q100 的 Markdown 正文、配图和站点配置。
 
-这本书面向想学习工业视觉、准备相关面试，或需要参与视觉项目的读者，内容从相机、镜头、光源等硬件选型讲起，延伸到算法、PLC 通信和系统集成。每个问题都配有示意图、公式或代码，方便把单个器件和参数放回完整的视觉系统中理解，也方便按问题查找和复习。目前先发布 Q1–Q60，后续章节会继续补全。
+这本书面向想学习工业视觉、准备相关面试，或需要参与视觉项目的读者，内容从相机、镜头、光源等硬件选型讲起，延伸到算法、PLC 通信和系统集成。每个问题都配有示意图、公式或代码，方便把单个器件和参数放回完整的视觉系统中理解，也方便按问题查找和复习。Q1–Q60 沿用本地 Q1–Q60 仓库的目录和发布结构；Q61–Q100 使用对应出版优化稿，并按同一站点结构装配。
 
 ## 阅读入口
 
@@ -16,10 +16,19 @@
 2. [第二章：算法基础与系统验收（Q31–Q40）](docs/chapters/chapter-02-q31-q40.md)
 3. [第三章：PLC、通信与运动控制（Q41–Q55）](docs/chapters/chapter-03-q41-q55.md)
 4. [第四章：PLC 通信、实时控制与系统集成（Q56–Q60）](docs/chapters/chapter-04-q56-q60.md)
+5. [第五章：PLC 通信、实时控制与系统集成（Q61–Q70）](docs/chapters/chapter-05-q61-q70.md)
+6. [第六章：算法工程、软件架构与项目交付（Q71–Q80）](docs/chapters/chapter-06-q71-q80.md)
+7. [第七章：软件架构、权限与项目成本（Q81–Q90）](docs/chapters/chapter-07-q81-q90.md)
+8. [第八章：开发库、部署与运行维护（Q91–Q100）](docs/chapters/chapter-08-q91-q100.md)
 
 ## PDF 阅读版
 
 - [下载《工业与机器视觉100问》Q1–Q60 第三版 PDF](output/pdf/工业与机器视觉100问_Q1-Q60_第三版_封面重制版.pdf)
+- [下载《工业与机器视觉100问》Q51–Q100 合并发布 PDF](output/pdf/工业与机器视觉100问_Q51-Q100_老仓库标准合并发布稿.pdf)
+
+Q51–Q100 合并 PDF 包含 Q51–Q60（老仓库原有正文，本次纳入正式发布）和 Q61–Q100（新增正文）。PDF 已按老仓库的 A4 页面基准重新装配，并加入可导航的题号书签；Q1–Q60 原 PDF 保持不改，作为历史发布件保留。
+
+仓库内 Q1–Q100 图片已统一加入浅色版权标识：右上角为“LanQS｜工业与机器视觉100问”，右下角为“B站搜索：飒飒青屿”。
 
 ## 相关视频
 
@@ -27,7 +36,7 @@
 
 ## 逐题索引
 
-README 下方列出 Q1–Q60 全部问题，可直接跳转到对应章节。
+README 下方列出 Q1–Q100 全部问题，可直接跳转到对应章节。
 
 - [Q1：工业相机选型的三个最核心参数是什么？它们的计算公式或选择逻辑是怎样的？](docs/chapters/chapter-01-q01-q30.md#q01)
 - [Q2：如何根据最小检测缺陷尺寸和视野范围，计算所需相机的最低分辨率？](docs/chapters/chapter-01-q01-q30.md#q02)
@@ -89,6 +98,54 @@ README 下方列出 Q1–Q60 全部问题，可直接跳转到对应章节。
 - [Q58：什么是 HMI？视觉系统需要与 HMI 交互哪些信息？](docs/chapters/chapter-04-q56-q60.md#q58)
 - [Q59：如何在 HMI 上设计便于操作工使用的视觉参数调整界面？（如 ROI 框、阈值滑块）](docs/chapters/chapter-04-q56-q60.md#q59)
 - [Q60：生产换型时，视觉系统如何快速切换程序和参数？PLC 如何配合？](docs/chapters/chapter-04-q56-q60.md#q60)
+
+### Q61–Q70
+- [Q61：视觉系统发生故障（如相机断开）时，如何通知 PLC 使产线安全停机？](docs/chapters/chapter-05-q61-q70.md#q61)
+- [Q62：如何为视觉系统设计心跳信号，以监控其在线状态？](docs/chapters/chapter-05-q61-q70.md#q62)
+- [Q63：什么是 MES？视觉系统应该向 MES 上传哪些数据？](docs/chapters/chapter-05-q61-q70.md#q63)
+- [Q64：如何让视觉系统的时钟与工厂网络时钟保持同步？](docs/chapters/chapter-05-q61-q70.md#q64)
+- [Q65：为什么信号线和电源线要分开敷设？如果无法避免交叉，应怎样处理？](docs/chapters/chapter-05-q61-q70.md#q65)
+- [Q66：车间环境光变化（早晚阳光、附近设备闪光）会怎样影响视觉系统？有哪些缓解策略？](docs/chapters/chapter-05-q61-q70.md#q66)
+- [Q67：普通生产中的颜色、纹理和位置出现小幅正常波动时，视觉系统应该怎样处理？](docs/chapters/chapter-05-q61-q70.md#q67)
+- [Q68：产品表面的油污和水渍应该怎样处理？算法能做什么，硬件能预防什么？](docs/chapters/chapter-05-q61-q70.md#q68)
+- [Q69：振动会使图像模糊，除了延长曝光和全局快门，还有哪些措施有效？](docs/chapters/chapter-05-q61-q70.md#q69)
+- [Q70：什么是“黄金样本”？它在调试和维护中起什么作用？](docs/chapters/chapter-05-q61-q70.md#q70)
+
+### Q71–Q80
+- [Q71：如何设计训练集采集流程，覆盖正常变化和缺陷条件？](docs/chapters/chapter-06-q71-q80.md#q71)
+- [Q72：现场调试发现特定角度或光照下的误检，却无法稳定复现，应该怎么办？](docs/chapters/chapter-06-q71-q80.md#q72)
+- [Q73：如何评价视觉系统的稳定性？除准确率外，还应监控哪些指标？](docs/chapters/chapter-06-q71-q80.md#q73)
+- [Q74：工业检测中漏检和误检哪个更严重？算法如何平衡两者？](docs/chapters/chapter-06-q71-q80.md#q74)
+- [Q75：什么是算法鲁棒性？如何提高检测算法的鲁棒性？](docs/chapters/chapter-06-q71-q80.md#q75)
+- [Q76：深度学习模型部署到工业计算机后达不到节拍要求，应该从哪些方面优化？](docs/chapters/chapter-06-q71-q80.md#q76)
+- [Q77：什么是模型量化、剪枝和知识蒸馏？它们分别解决什么问题？](docs/chapters/chapter-06-q71-q80.md#q77)
+- [Q78：工业 PC 与普通 PC 有什么区别？为什么工厂更常选 IPC？](docs/chapters/chapter-06-q71-q80.md#q78)
+- [Q79：工业 PC 上运行哪些操作系统？为什么许多工业软件仍然运行在 Windows 上？](docs/chapters/chapter-06-q71-q80.md#q79)
+- [Q80：视觉系统必须 7×24 运行，如何设计自动启动和看门狗机制？](docs/chapters/chapter-06-q71-q80.md#q80)
+
+### Q81–Q90
+- [Q81：工业视觉系统如何管理软件版本和参数配置文件？](docs/chapters/chapter-07-q81-q90.md#q81)
+- [Q82：现场人员可能误操作，工业视觉系统应该如何设计权限？](docs/chapters/chapter-07-q81-q90.md#q82)
+- [Q83：客户要求增加一种缺陷检测，软件架构如何支持快速扩展？](docs/chapters/chapter-07-q81-q90.md#q83)
+- [Q84：工业视觉项目交付时应该准备哪些文档？](docs/chapters/chapter-07-q81-q90.md#q84)
+- [Q85：如何估算工业视觉项目的总体成本？（硬件、软件、开发与维护）](docs/chapters/chapter-07-q81-q90.md#q85)
+- [Q86：算法处理一帧需要 100 ms，但产线要求每 80 ms 得到一个结果，怎么办？](docs/chapters/chapter-07-q81-q90.md#q86)
+- [Q87：相机或镜头的性能会随时间退化，系统怎样检测并提前预警？](docs/chapters/chapter-07-q81-q90.md#q87)
+- [Q88：什么是数据增强？除普通旋转和缩放外，工业视觉还有哪些针对性方法？](docs/chapters/chapter-07-q81-q90.md#q88)
+- [Q89：缺陷样本极少、类别严重不平衡时，如何进行分类？](docs/chapters/chapter-07-q81-q90.md#q89)
+- [Q90：传统算法和深度学习都能解决问题时，如何选择技术路线？](docs/chapters/chapter-07-q81-q90.md#q90)
+
+### Q91–Q100
+- [Q91：除了 OpenCV，还应该了解哪些商业或开源视觉开发库（例如 HALCON、VisionPro、MIL 和 AForge.NET）？](docs/chapters/chapter-08-q91-q100.md#q91)
+- [Q92：HALCON 相比 OpenCV 有什么优势？许可证模式又该怎样理解？](docs/chapters/chapter-08-q91-q100.md#q92)
+- [Q93：视觉开发应选 Python 还是 C++？两者在工业部署中的优缺点是什么？](docs/chapters/chapter-08-q91-q100.md#q93)
+- [Q94：如何把 Python 训练的深度学习模型部署到 C++ 生产系统？](docs/chapters/chapter-08-q91-q100.md#q94)
+- [Q95：TensorRT、OpenVINO 和 ONNX Runtime 分别是什么？在项目中各自扮演什么角色？](docs/chapters/chapter-08-q91-q100.md#q95)
+- [Q96：在 Jetson、ARM 板卡等边缘设备上部署视觉算法，有哪些特殊考虑？](docs/chapters/chapter-08-q91-q100.md#q96)
+- [Q97：如何设计多线程或多进程的视觉采集、处理程序？通常需要哪些线程（例如采集线程、处理线程、通信线程）？](docs/chapters/chapter-08-q91-q100.md#q97)
+- [Q98：如果图像采集缓冲区大小设置不当，会出现哪些问题？](docs/chapters/chapter-08-q91-q100.md#q98)
+- [Q99：如何实现生产者—消费者模式来处理图像队列？](docs/chapters/chapter-08-q91-q100.md#q99)
+- [Q100：程序应该如何记录事件？工业现场实际需要哪些日志（错误、警告、逐帧结果、生产统计）？](docs/chapters/chapter-08-q91-q100.md#q100)
 
 ## 正文节选与配图
 

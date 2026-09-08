@@ -1,0 +1,44 @@
+site_name: 工业与机器视觉100问｜Q51–Q100发布稿
+site_url: https://lanqingsong.github.io/industrial-machine-vision-100-questions/
+repo_url: https://github.com/Lanqingsong/industrial-machine-vision-100-questions
+repo_name: Lanqingsong/industrial-machine-vision-100-questions
+site_author: 兰青松
+site_description: 工业与机器视觉100问 Q51–Q100 合并发布稿
+copyright: Copyright © 2026 兰青松（LanQS）
+use_directory_urls: false
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue grey
+    accent: amber
+
+nav:
+  - Q51–Q100: chapters/q51-q100-release.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: false
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - styles/pdf.css

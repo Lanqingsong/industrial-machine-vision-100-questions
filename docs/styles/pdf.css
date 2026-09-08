@@ -1,0 +1,27 @@
+@page {
+  size: A4;
+  margin: 15mm 14mm 17mm 14mm;
+}
+
+@media print {
+  html, body {
+    background: #fff;
+  }
+
+  .md-content {
+    max-width: none;
+  }
+
+  h1, h2 {
+    break-before: page;
+  }
+
+  h1:first-child {
+    break-before: auto;
+  }
+
+  img {
+    break-inside: avoid;
+    max-width: 100%;
+  }
+}
