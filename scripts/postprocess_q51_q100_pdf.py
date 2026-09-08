@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter, Transformation
-from pypdf.generic import RectangleObject
+from pypdf.generic import NameObject, RectangleObject, TextStringObject
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,12 +43,16 @@ def main() -> None:
                 cursor = page_index
                 break
 
-    writer.add_metadata({
-        "/Title": "工业与机器视觉100问 Q51-Q100 合并发布稿",
-        "/Author": "兰青松（LanQS）",
-        "/Subject": "Q51-Q100；Q51-Q60纳入正式发布，Q61-Q100新增内容",
-        "/Keywords": "工业视觉,机器视觉,Q51-Q100,出版发布稿",
-    })
+    info = writer._info.get_object()
+    for key, value in {
+        # Keep metadata in PDFDocEncoding-safe ASCII so viewers do not show
+        # replacement glyphs; the Chinese title remains in the visible cover.
+        "/Title": "Industrial and Machine Vision 100 Questions - Q51-Q100 Release",
+        "/Author": "LanQS",
+        "/Subject": "Q51-Q100 release; Q51-Q60 restored; Q61-Q100 added",
+        "/Keywords": "industrial vision, machine vision, Q51-Q100, release",
+    }.items():
+        info[NameObject(key)] = TextStringObject(value)
     for number in range(51, 101):
         page_index = page_starts.get(number)
         if page_index is not None:
