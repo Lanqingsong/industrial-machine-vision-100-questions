@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CHAPTERS = ROOT / "docs" / "chapters"
-TEMP_DOC = CHAPTERS / "chapter-q51-q100-pdf-source.md"
+TEMP_DOC = ROOT / "tmp" / "pdfs" / "chapter-q51-q100-pdf-source.md"
 
 
 def extract_questions(path: Path, start: int, end: int) -> list[str]:
@@ -38,6 +38,7 @@ def main() -> None:
     expected = list(range(51, 101))
     if numbers != expected:
         raise SystemExit(f"question sequence mismatch: {numbers}")
+    TEMP_DOC.parent.mkdir(parents=True, exist_ok=True)
     TEMP_DOC.write_text("\n\n---\n\n".join(sections) + "\n", encoding="utf-8")
     print(f"wrote {TEMP_DOC} with {len(sections)} questions")
 
